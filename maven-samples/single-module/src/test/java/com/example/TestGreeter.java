@@ -42,7 +42,7 @@ public class TestGreeter {
   }
   
    @Test
-  public void greetShouldIncludeGreetingMessage() {
+  public void greetShouldIncludeGreetingMessageUpdated() {
     String someone = "My new code commit";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
